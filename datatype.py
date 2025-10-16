@@ -1,4 +1,4 @@
-
+#
 # fruits = ["apple","pineapple","mango",]
 # print(fruits)
 # print(fruits[0])
@@ -163,9 +163,121 @@
 #     a=a//10
 # print(rev)
 
+# sum=0
+# a = int(input("enter your no:"))
+# for i in range(1,a+1):
+#     sum+=i
+# print(sum)
+########
 
-a = (input('enter your no:'))
-rev = ''
-for i in (a):
-    rev = (i) + rev
-    print(rev)
+# n = int(input("enter your no"))
+# a,b=0,1
+# count = 0
+
+# while count<=n:
+#     print(a,end=" ")
+#     nextterm = a+b
+#     a=b
+#     b=nextterm
+#     count+=1
+
+# n= int(input("enter your no"))
+# a,b=0,1
+# for i in range(n):
+#     print(a,end=" ")
+#     nextterm = a+b
+#     a=b
+#     b=nextterm
+
+
+# a = int(input('enter your no '))
+# b = int(input('enter your 2nd no '))
+# for i in range(a,b+1):
+#     print(a)
+#     if(i%1==0 and i%i==0):
+#         print()
+#     else:
+#         continue 
+
+
+# a = int(input("enter your no:"))
+# sum=0
+# while a>0:
+#     digit = a%10
+#     sum+=digit
+#     a=a//10
+# # print(sum)
+
+# a = input('enter your no')
+# sum = 0
+# for i in a:
+#     digit = int(a)%10
+#     sum+=digit
+#     a=int(a)//10
+# print(sum)
+
+# a = int(input("enter your no 1st:"))
+# b = int(input("enter your no 2nd no:"))
+# for i in range(a,b+1):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                break
+#         else:
+#             print(f'your all prime no is{i}')
+
+
+
+# a = int(input("enter your no:"))
+# orignal = a
+# rev = 0
+
+# for i in a:
+
+#     digit = a%10
+#     rev = rev*10 + digit
+#     a=a//10
+#     if rev == orignal:
+#         print("palendrom no")
+                             
+
+# a = int(input("enter your no:"))
+
+# sum=0
+
+# while  a> 0:
+#     digit = a%10
+#     sum += digit 
+#     a = a//10
+# print(sum)
+
+
+# num = int(input("enter your no"))
+# orignal_no = num
+# sum = 0
+# length = len(str(num))
+# while num > 0:
+#     digit=num%10
+#     sum+=digit**length
+#     num=num//10
+# print(sum)
+
+# if (sum == orignal_no):
+#     print('armstrong no ',sum)
+# else:
+#     print("not a armstrong")
+
+
+num = (input("enter your no"))
+orignal_no = num
+sum = 0
+length = len(str(num))
+for i in num:
+    num = int(num)
+    digit = i%10
+    sum+=digit**len(str(num))
+    num=num//10
+print(sum)
+
+
+
