@@ -1,0 +1,4 @@
+numb1 = int(input("enter your first no"))
+numb2 = int(input("enter your second no"))
+if numb1 == numb2:
+    print("both are equal")
